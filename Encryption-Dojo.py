@@ -6,8 +6,6 @@ abcs = "abcdefghijklmnopqrstuvwxyz"
 decryption_key = ["!", ")", "$", "(", "£", "*", "%", "&", ">", "<", "@", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o"]
 encrypted_abcs = "!)$(£*&><@abcdefghijklmno"
 
-decryption_pairs = list(zip(alphabet, decryption_key))
-# print(decryption_pairs)
 
 my_message = "bridget"
 # answer = input("encrypt or decrypt?")
