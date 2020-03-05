@@ -14,7 +14,7 @@ def encrypt(message):
     encrypted_message = ""
     for letter in message:
         message_index = abcs.find(letter)
-        letter = decryption_key[message_index+1]
+        letter = decryption_key[message_index]
         encrypted_message += letter
     return encrypted_message
 
@@ -29,4 +29,4 @@ def decrypt(message):
         decrypted_message += letter
     return decrypted_message
 
-print(decrypt("$h<£&*j"))
+print(decrypt(my_message))
